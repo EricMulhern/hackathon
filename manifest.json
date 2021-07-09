@@ -1,0 +1,20 @@
+{
+	"manifest_version": 2,
+	"name": "theRealOKCupid",
+	"version": "1.0",
+	"description": "Dig thru the bs",
+	"content_scripts": [
+  		{
+    		"matches": ["https://www.okcupid.com/*"],
+    		"js": ["./main.js"],
+    		"css": ["index.css"],
+        "html": ["index.html"]
+  		}
+	],
+	"icons": 
+		{ 
+      "48": "fish48.jpeg",
+      "128": "fish128.jpeg" 
+    }
+
+}
